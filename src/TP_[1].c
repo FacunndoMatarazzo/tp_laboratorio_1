@@ -9,7 +9,9 @@ int main(){
 
 	setbuf(stdout,NULL);
 
+
 	int menu;
+	char seguir='s';
 	int km;
 	float y=0;
 	float z=0;
@@ -123,12 +125,15 @@ int main(){
 			printf("\nd) Mostrar precio unitario:$ %.2f",precioVuelosLatam);
 			printf("\n\nLa diferencia de precio es:$ %2.f",difenciaDePrecio);
 			break;
+		case 6:
+			seguir='n';
+			break;
 		default:
 			printf("\nIngrese una opcion correcta...\n");
 			break;
 		}
 
-	}while(menu!=6);
+	}while(seguir=='s');
 	printf("Gracias por pasarte...\n");
 
 	return EXIT_SUCCESS;
