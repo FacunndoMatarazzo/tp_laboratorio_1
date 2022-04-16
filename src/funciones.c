@@ -69,30 +69,3 @@ float DiferenciaDePrecio(float y,float z)
 	}
 	return resultado;
 }
-
-/*void CargaForzada(int km, float y, float z,float tarjetaCreditoAerolineas, float tarjetaDebitoAerolineas,float precioBtcAerolineas,precioVuelosAerolineas, float tarjetaDebitoLatam, float tarjetaCreditoLatam, float precioBtcLatam)
-{
-	km=7090;
-	y=162965;
-	z=159339;
-
-	tarjetaCreditoAerolineas=CreditoAerolineas(y);
-	tarjetaDebitoAerolineas=DebitoAerolineas(y);
-	precioBtcAerolineas=CalcularBtcAerolineas(y);
-	precioVuelosAerolineas=PrecioUnitarioAerolineas(km, y);
-
-	system("cls");
-	printf("-El precio de Aerolineas es:%.2f",y);
-	printf("\na) Precio con tarjeta de débito: %.2f", tarjetaDebitoAerolineas);
-	printf("\nb) Precio con tarjeta de crédito: %.2f",tarjetaCreditoAerolineas);
-	printf("\nc) Precio pagando con bitcoin : %f", precioBtcAerolineas);
-	printf("\nd) Precio unitario: %.2f", precioVuelosAerolineas);
-
-	printf("\n\n\n-El precio de Latam es:%.2f",z);
-	printf("\na) Precio con tarjeta de débito: %.2f", tarjetaDebitoLatam);
-	printf("\nb) Precio con tarjeta de crédito: %.2f", tarjetaCreditoLatam);
-	printf("\nc) Precio pagando con bitcoin : %f", precioBtcLatam);
-	printf("\nd) Precio unitario: %.2f", precioVuelosAerolineas);
-
-
-}*/
