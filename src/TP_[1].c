@@ -69,14 +69,15 @@ int main(){
 				precioBtcLatam=CalcularBtc(z);
 				precioVuelosLatam=PrecioPorKM(z,km);
 				difenciaDePrecio=DiferenciaDePrecio(y, z);
+				printf("\nSe realizaron los calculos...");
 
 			}else{
-				printf("No se ingresaron los datos para hacer los calculos");
+				printf("\nNo se ingresaron los datos para hacer los calculos");
 			}
 			break;
 
 		case 4:
-			if(km==0 || y==0 || z==0){
+			if(km!=0 && y!=0 && z!=0){
 				printf("Los kilometros ingresados son: %d km\n\n",km);
 				printf("-El precio de Aerolineas es:$ %.2f",y);
 				printf("\na) Precio con tarjeta de débito:$ %.2f",tarjetaDebitoAerolineas);
